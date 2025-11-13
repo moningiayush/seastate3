@@ -1,0 +1,55 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Build and packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Test, coverage, type checking
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# Node (if any tooling used)
+node_modules/
+
+# Project outputs (generated)
+outputs*/
+outputs_*/
+outputs_singleboat*/
+outputs_singleboat_slices*/
+outputs_singleboat_slices_meters/
